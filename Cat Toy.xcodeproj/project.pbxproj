@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81FBECF22021C1A00A60E42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBECE22021C1A00A60E42 /* AppDelegate.m */; };
+		E81FBED222021C1A00A60E42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBED122021C1A00A60E42 /* ViewController.m */; };
+		E81FBED522021C1A00A60E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FBED322021C1A00A60E42 /* Main.storyboard */; };
+		E81FBED822021C1A00A60E42 /* Cat_Toy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E81FBED622021C1A00A60E42 /* Cat_Toy.xcdatamodeld */; };
+		E81FBEDA22021C1C00A60E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81FBED922021C1C00A60E42 /* Assets.xcassets */; };
+		E81FBEDD22021C1C00A60E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FBEDB22021C1C00A60E42 /* LaunchScreen.storyboard */; };
+		E81FBEE022021C1C00A60E42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBEDF22021C1C00A60E42 /* main.m */; };
+		E81FBEEA22021C1D00A60E42 /* Cat_ToyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBEE922021C1D00A60E42 /* Cat_ToyTests.m */; };
+		E81FBEF522021C1D00A60E42 /* Cat_ToyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBEF422021C1D00A60E42 /* Cat_ToyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E81FBEE622021C1D00A60E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81FBEC222021C1900A60E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81FBEC922021C1A00A60E42;
+			remoteInfo = "Cat Toy";
+		};
+		E81FBEF122021C1D00A60E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81FBEC222021C1900A60E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81FBEC922021C1A00A60E42;
+			remoteInfo = "Cat Toy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E81FBECA22021C1A00A60E42 /* Cat Toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Toy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81FBECD22021C1A00A60E42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E81FBECE22021C1A00A60E42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E81FBED022021C1A00A60E42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E81FBED122021C1A00A60E42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E81FBED422021C1A00A60E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E81FBED722021C1A00A60E42 /* Cat_Toy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cat_Toy.xcdatamodel; sourceTree = "<group>"; };
+		E81FBED922021C1C00A60E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E81FBEDC22021C1C00A60E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E81FBEDE22021C1C00A60E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81FBEDF22021C1C00A60E42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E81FBEE522021C1D00A60E42 /* Cat ToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat ToyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81FBEE922021C1D00A60E42 /* Cat_ToyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat_ToyTests.m; sourceTree = "<group>"; };
+		E81FBEEB22021C1D00A60E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81FBEF022021C1D00A60E42 /* Cat ToyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat ToyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81FBEF422021C1D00A60E42 /* Cat_ToyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat_ToyUITests.m; sourceTree = "<group>"; };
+		E81FBEF622021C1D00A60E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E81FBEC722021C1A00A60E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FBEE222021C1D00A60E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FBEED22021C1D00A60E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81FBEC122021C1900A60E42 = {
+			isa = PBXGroup;
+			children = (
+				E81FBECC22021C1A00A60E42 /* Cat Toy */,
+				E81FBEE822021C1D00A60E42 /* Cat ToyTests */,
+				E81FBEF322021C1D00A60E42 /* Cat ToyUITests */,
+				E81FBECB22021C1A00A60E42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E81FBECB22021C1A00A60E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81FBECA22021C1A00A60E42 /* Cat Toy.app */,
+				E81FBEE522021C1D00A60E42 /* Cat ToyTests.xctest */,
+				E81FBEF022021C1D00A60E42 /* Cat ToyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81FBECC22021C1A00A60E42 /* Cat Toy */ = {
+			isa = PBXGroup;
+			children = (
+				E81FBECD22021C1A00A60E42 /* AppDelegate.h */,
+				E81FBECE22021C1A00A60E42 /* AppDelegate.m */,
+				E81FBED022021C1A00A60E42 /* ViewController.h */,
+				E81FBED122021C1A00A60E42 /* ViewController.m */,
+				E81FBED322021C1A00A60E42 /* Main.storyboard */,
+				E81FBED922021C1C00A60E42 /* Assets.xcassets */,
+				E81FBEDB22021C1C00A60E42 /* LaunchScreen.storyboard */,
+				E81FBEDE22021C1C00A60E42 /* Info.plist */,
+				E81FBEDF22021C1C00A60E42 /* main.m */,
+				E81FBED622021C1A00A60E42 /* Cat_Toy.xcdatamodeld */,
+			);
+			path = "Cat Toy";
+			sourceTree = "<group>";
+		};
+		E81FBEE822021C1D00A60E42 /* Cat ToyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E81FBEE922021C1D00A60E42 /* Cat_ToyTests.m */,
+				E81FBEEB22021C1D00A60E42 /* Info.plist */,
+			);
+			path = "Cat ToyTests";
+			sourceTree = "<group>";
+		};
+		E81FBEF322021C1D00A60E42 /* Cat ToyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E81FBEF422021C1D00A60E42 /* Cat_ToyUITests.m */,
+				E81FBEF622021C1D00A60E42 /* Info.plist */,
+			);
+			path = "Cat ToyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81FBEC922021C1A00A60E42 /* Cat Toy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81FBEF922021C1D00A60E42 /* Build configuration list for PBXNativeTarget "Cat Toy" */;
+			buildPhases = (
+				E81FBEC622021C1A00A60E42 /* Sources */,
+				E81FBEC722021C1A00A60E42 /* Frameworks */,
+				E81FBEC822021C1A00A60E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cat Toy";
+			productName = "Cat Toy";
+			productReference = E81FBECA22021C1A00A60E42 /* Cat Toy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E81FBEE422021C1D00A60E42 /* Cat ToyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81FBEFC22021C1D00A60E42 /* Build configuration list for PBXNativeTarget "Cat ToyTests" */;
+			buildPhases = (
+				E81FBEE122021C1D00A60E42 /* Sources */,
+				E81FBEE222021C1D00A60E42 /* Frameworks */,
+				E81FBEE322021C1D00A60E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81FBEE722021C1D00A60E42 /* PBXTargetDependency */,
+			);
+			name = "Cat ToyTests";
+			productName = "Cat ToyTests";
+			productReference = E81FBEE522021C1D00A60E42 /* Cat ToyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E81FBEEF22021C1D00A60E42 /* Cat ToyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81FBEFF22021C1D00A60E42 /* Build configuration list for PBXNativeTarget "Cat ToyUITests" */;
+			buildPhases = (
+				E81FBEEC22021C1D00A60E42 /* Sources */,
+				E81FBEED22021C1D00A60E42 /* Frameworks */,
+				E81FBEEE22021C1D00A60E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81FBEF222021C1D00A60E42 /* PBXTargetDependency */,
+			);
+			name = "Cat ToyUITests";
+			productName = "Cat ToyUITests";
+			productReference = E81FBEF022021C1D00A60E42 /* Cat ToyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81FBEC222021C1900A60E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Greg Alton";
+				TargetAttributes = {
+					E81FBEC922021C1A00A60E42 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E81FBEE422021C1D00A60E42 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E81FBEC922021C1A00A60E42;
+					};
+					E81FBEEF22021C1D00A60E42 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E81FBEC922021C1A00A60E42;
+					};
+				};
+			};
+			buildConfigurationList = E81FBEC522021C1900A60E42 /* Build configuration list for PBXProject "Cat Toy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E81FBEC122021C1900A60E42;
+			productRefGroup = E81FBECB22021C1A00A60E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E81FBEC922021C1A00A60E42 /* Cat Toy */,
+				E81FBEE422021C1D00A60E42 /* Cat ToyTests */,
+				E81FBEEF22021C1D00A60E42 /* Cat ToyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E81FBEC822021C1A00A60E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FBEDD22021C1C00A60E42 /* LaunchScreen.storyboard in Resources */,
+				E81FBEDA22021C1C00A60E42 /* Assets.xcassets in Resources */,
+				E81FBED522021C1A00A60E42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FBEE322021C1D00A60E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FBEEE22021C1D00A60E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81FBEC622021C1A00A60E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FBED222021C1A00A60E42 /* ViewController.m in Sources */,
+				E81FBED822021C1A00A60E42 /* Cat_Toy.xcdatamodeld in Sources */,
+				E81FBEE022021C1C00A60E42 /* main.m in Sources */,
+				E81FBECF22021C1A00A60E42 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FBEE122021C1D00A60E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FBEEA22021C1D00A60E42 /* Cat_ToyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FBEEC22021C1D00A60E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FBEF522021C1D00A60E42 /* Cat_ToyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E81FBEE722021C1D00A60E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81FBEC922021C1A00A60E42 /* Cat Toy */;
+			targetProxy = E81FBEE622021C1D00A60E42 /* PBXContainerItemProxy */;
+		};
+		E81FBEF222021C1D00A60E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81FBEC922021C1A00A60E42 /* Cat Toy */;
+			targetProxy = E81FBEF122021C1D00A60E42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E81FBED322021C1A00A60E42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81FBED422021C1A00A60E42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E81FBEDB22021C1C00A60E42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81FBEDC22021C1C00A60E42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E81FBEF722021C1D00A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E81FBEF822021C1D00A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E81FBEFA22021C1D00A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ9XN8S2Z9;
+				INFOPLIST_FILE = "Cat Toy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marketingmelody.Cat-Toy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E81FBEFB22021C1D00A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ9XN8S2Z9;
+				INFOPLIST_FILE = "Cat Toy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marketingmelody.Cat-Toy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E81FBEFD22021C1D00A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ9XN8S2Z9;
+				INFOPLIST_FILE = "Cat ToyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marketingmelody.Cat-ToyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Toy.app/Cat Toy";
+			};
+			name = Debug;
+		};
+		E81FBEFE22021C1D00A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ9XN8S2Z9;
+				INFOPLIST_FILE = "Cat ToyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marketingmelody.Cat-ToyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Toy.app/Cat Toy";
+			};
+			name = Release;
+		};
+		E81FBF0022021C1D00A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ9XN8S2Z9;
+				INFOPLIST_FILE = "Cat ToyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marketingmelody.Cat-ToyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cat Toy";
+			};
+			name = Debug;
+		};
+		E81FBF0122021C1D00A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ9XN8S2Z9;
+				INFOPLIST_FILE = "Cat ToyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marketingmelody.Cat-ToyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cat Toy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E81FBEC522021C1900A60E42 /* Build configuration list for PBXProject "Cat Toy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FBEF722021C1D00A60E42 /* Debug */,
+				E81FBEF822021C1D00A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81FBEF922021C1D00A60E42 /* Build configuration list for PBXNativeTarget "Cat Toy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FBEFA22021C1D00A60E42 /* Debug */,
+				E81FBEFB22021C1D00A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81FBEFC22021C1D00A60E42 /* Build configuration list for PBXNativeTarget "Cat ToyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FBEFD22021C1D00A60E42 /* Debug */,
+				E81FBEFE22021C1D00A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81FBEFF22021C1D00A60E42 /* Build configuration list for PBXNativeTarget "Cat ToyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FBF0022021C1D00A60E42 /* Debug */,
+				E81FBF0122021C1D00A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E81FBED622021C1A00A60E42 /* Cat_Toy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E81FBED722021C1A00A60E42 /* Cat_Toy.xcdatamodel */,
+			);
+			currentVersion = E81FBED722021C1A00A60E42 /* Cat_Toy.xcdatamodel */;
+			path = Cat_Toy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E81FBEC222021C1900A60E42 /* Project object */;
+}
