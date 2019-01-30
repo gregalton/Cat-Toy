@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController {
-    SystemSoundID soundID;
+    
 }
+
+@property (nonatomic,strong)AVAudioPlayer *player;
 
 @end
 

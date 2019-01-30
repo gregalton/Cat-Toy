@@ -15,16 +15,21 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.catLabel.hidden = YES;
-    NSURL *soundURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Cat" ofType:@"wav"]];
-    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL, &soundID);
+    
+    NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Cat" ofType:@"wav"];
+    NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL
+                                                            error:nil];
+    self.player.volume = 0.05;
 }
 
 - (IBAction)pokeTheCat:(id)sender {
     self.catLabel.hidden = NO;
-    AudioServicesPlaySystemSound(soundID);
+    [self.player play];
     [NSTimer scheduledTimerWithTimeInterval:1.2 target:self selector:@selector(hideLabel) userInfo:nil repeats:NO];
 }
 

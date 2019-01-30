@@ -16,7 +16,6 @@
 		E81FBEE022021C1C00A60E42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBEDF22021C1C00A60E42 /* main.m */; };
 		E81FBEEA22021C1D00A60E42 /* Cat_ToyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBEE922021C1D00A60E42 /* Cat_ToyTests.m */; };
 		E81FBEF522021C1D00A60E42 /* Cat_ToyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81FBEF422021C1D00A60E42 /* Cat_ToyUITests.m */; };
-		E81FBF042202261500A60E42 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81FBF032202261500A60E42 /* AudioToolbox.framework */; };
 		E81FBF062202290900A60E42 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = E81FBF052202290800A60E42 /* meow.wav */; };
 		E81FBF072202290900A60E42 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = E81FBF052202290800A60E42 /* meow.wav */; };
 		E81FBF082202290900A60E42 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = E81FBF052202290800A60E42 /* meow.wav */; };
@@ -60,7 +59,6 @@
 		E81FBEF022021C1D00A60E42 /* Cat ToyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat ToyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81FBEF422021C1D00A60E42 /* Cat_ToyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat_ToyUITests.m; sourceTree = "<group>"; };
 		E81FBEF622021C1D00A60E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E81FBF032202261500A60E42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E81FBF052202290800A60E42 /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meow.wav; sourceTree = "<group>"; };
 		E81FBF0922023D8B00A60E42 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81FBF042202261500A60E42 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +149,6 @@
 		E81FBF022202261500A60E42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E81FBF032202261500A60E42 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
